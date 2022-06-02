@@ -1,4 +1,5 @@
 ![schema lm35](https://user-images.githubusercontent.com/56684731/171606140-0e6c3617-ba6b-48ca-8007-62077898f37b.PNG)
+![caract si fisa tehnica](https://user-images.githubusercontent.com/56684731/171606557-767d5a0c-1346-42fd-a248-a53829754651.PNG)
 
 În circuit, PORTB al ATMEGA32 este conectat la portul de date al LCD. 
 Aici ar trebui să vă amintiți să dezactivați comunicarea JTAG în PORTC sau ATMEGA prin schimbarea octeților siguranței, dacă doriți să utilizați PORTC ca port de 
