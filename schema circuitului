@@ -1,0 +1,6 @@
+![schema lm35](https://user-images.githubusercontent.com/56684731/171606140-0e6c3617-ba6b-48ca-8007-62077898f37b.PNG)
+
+În circuit, PORTB al ATMEGA32 este conectat la portul de date al LCD. Aici ar trebui să vă amintiți să dezactivați comunicarea JTAG în PORTC sau ATMEGA prin schimbarea octeților siguranței, dacă doriți să utilizați PORTC ca port de comunicare normal. În LCD 16x2 există 16 pini peste tot dacă există o lumină din spate, dacă nu există lumină din spate vor fi 14 pini. Se poate alimenta sau lăsa pinii luminii din spate. Acum, în cei 14 pini există 8 pini de date (7-14 sau D0-D7), 2 pini de alimentare (1&2 sau VSS&VDD sau gnd&+5v), al treilea pin pentru controlul contrastului (VEE-controlează cât de gros ar trebui să fie afișate caracterele ), 3 pini de control (RS&RW&E).
+
+În circuit, puteți observa că am luat doar doi pini de control, deoarece acest lucru oferă flexibilitatea unei mai bune înțelegeri. Bitul de contrast și READ/WRITE nu sunt folosite adesea, astfel încât acestea pot fi scurtcircuitate la masă. Acest lucru pune LCD-ul în cel mai mare contrast și modul de citire. Trebuie doar să controlăm pinii ENABLE și RS pentru a trimite caractere și date în consecință.
+
