@@ -1,1 +1,1 @@
-# M-surarea-temperaturii-folosind-LM35-i-microcontrolerul-AVR
+# Masurarea-temperaturii-folosind-LM35-i-microcontrolerul-AVR
