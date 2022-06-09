@@ -1,4 +1,4 @@
-# **Masurarea temperaturii folosind LM35 si microcontrolerul ATMEGA32**
+# **Masurarea temperaturii folosind DHT22 si modul ESP8266 wemos D1**
 ### ~ *Plachta Andreea-Mirela*
 ## Descrierea proiectului
 
